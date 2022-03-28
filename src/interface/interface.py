@@ -7,14 +7,13 @@ class Interface():
     '''
 
     def __init__(self):
-        print("Instanciando uma nova interface...")
+        print("[INFO] Instanciando uma nova interface...")
 
         self.__calculadora = Calculadora()
 
     
     def __del__(self):
-        del self.__calculadora
-
+        print("[INFO] Excluindo uma nova interface...")
         print('\nObrigado por usar nossa calculadora!')
 
 

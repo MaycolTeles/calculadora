@@ -2,6 +2,9 @@ from src.calculadora.calculadora import Calculadora
 
 import unittest
 
+# Comando para rodar os testes no Linux: python3 -m unittest -v
+# Comando para rodar os testes no Windows: python -m unittest -v
+
 # TODO: FIX ALL THE DOCSTRINGS BELOW
 class TestCalculadora(unittest.TestCase):
     '''

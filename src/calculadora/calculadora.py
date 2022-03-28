@@ -23,7 +23,7 @@ class Calculadora():
     '''
 
     def __init__(self):
-        print("Instanciando uma nova calculadora...")
+        print("[INFO] Instanciando uma nova calculadora...")
 
 
     # DOCUMENTAÇÃO BASEADA EM: - Numpydoc
